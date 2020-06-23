@@ -15,6 +15,7 @@ You can manually install the git build by cloning the repo and then running buil
 ```
 git clone --depth=1 https://github.com/instantOS/instantWM.git
 cd instantWM
+sudo dnf install make gcc libX11-devel libXft-devel libXinerama-devel
 ./build.sh
 ```
 You can use this to get access to new features early. 
